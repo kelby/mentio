@@ -1,0 +1,103 @@
+/* 
+  Localizable.strings
+  Mentio
+
+  Created by Martin Hartl on 16/10/13.
+  Copyright (c) 2013 Martin Hartl. All rights reserved.
+*/
+
+"MTStatusCellLoading" = "Laden";
+"MTStatusCellNoDataFound" = "Keine Daten gefunden";
+"MTStatusCellSearchSomeThing" = "Such etwas";
+"Music" = "Musik";
+"Movie" = "Film";
+"Artist:" = "Künstler:";
+"Title:" = "Name:";
+"Price:" = "Preis:";
+"Songs" = "Lieder";
+"Infos" = "Infos";
+"Release Date:" = "Erscheinungsdatum:";
+"share" = "Teile";
+"shared by" = "geteilt mit";
+"Director:" = "Regisseur:";
+"Description:" = "Beschreibung:";
+"App" = "App";
+"Screenshots" = "Screenshots";
+"Developer:" = "Entwickler:";
+"Description" = "Beschreibung";
+"Free" = "kostenlos";
+"Settings" = "Einstellungen";
+"Country Settings" = "Landeseinstellung";
+"Please select your country" = "Bitte wähle dein Land aus";
+"Use light theme" = "Verwende hellen Theme";
+"About" = "About";
+"contact/sendfeedback" = "Kontakt / Sende Feedback";
+"followMeOnTwitter" = "Folge mir auf Twitter";
+"rateMentio" = "Bewerte Mentio";
+"thankforpurchasing" = "Vielen Dank für den Kauf von Mentio";
+"SETTINGS_NO_MAIL_TITLE" = "Ups";
+"SETTINGS_NO_MAIL_ACCOUNT_SET_UP" = "Es scheint als hätten Sie auf diesem Gerät kein E-Mail-Konto eingerichtet";
+"SETTINGS_ALERT_OK" = "Ok";
+"noInternetWarningMessage" = "Es ist ein Fehler aufgetreten, vielleicht haben Sie keine Internetverbindung.";
+"noInternetWarningTitle" = "Fehler";
+"Ok" = "Ok";
+"missingDataWarningTitle" = "Fehlende Daten";
+"Not available" = "Nicht verfügbar";
+"Author:" = "Autor:";
+"Episodes" = "Episoden";
+"TV Show" = "Fernsehserie";
+"Book" = "Buch";
+"Copyright:" = "Copyright:";
+"Show:" = "Serie:";
+
+/* MTListViewController */
+"mtlistviewcontroller.navigationitem.title.archive" = "Archiv";
+"mtlistviewcontroller.categorie.music" = "Musik";
+"mtlistviewcontroller.categorie.movies" = "Filme";
+"mtlistviewcontroller.categorie.apps" = "Apps";
+"mtlistviewcontroller.categorie.books" = "Bücher";
+"mtlistviewcontroller.categorie.tvshows" = "Fernsehserien";
+"mtlistviewcontroller.rowaction.archive" = "Archivieren";
+"mtlistviewcontroller.rowaction.unarchive" = "Entarchivieren";
+"mtlistviewcontroller.rowaction.delete" = "Löschen";
+
+/* MTAcknowledgmentViewController */
+"acknowledgment.title" = "Attribution";
+"acknowledgment.introduction" = "Mentio verwendet folgende Bibliotheken:";
+
+/* MTSearchViewControllers */
+"mtsearchappviewcontroller.searchsomething" = "Suche nach einer App";
+"mtsearchappviewcontroller.noappfound" = "Keine App gefunden";
+
+"mtsearchmusicviewcontroller.searchsomething" = "Suche nach Musik";
+"mtsearchmusicviewcontroller.nomusicfound" = "Keine Musik gefunden";
+
+"mtsearchmovieviewcontroller.searchsomething" = "Suche nach einem Film";
+"mtsearchmovieviewcontroller.nomoviefound" = "Keinen Film gefunden";
+
+"mtsearchbookviewcontroller.searchsomething" = "Suche nach einem Buch";
+"mtsearchbookviewcontroller.nobookfound" = "Kein Buch gefunden";
+
+"mtsearchtvshowviewcontroller.searchsomething" = "Suche nach eine Fernsehserie";
+"mtsearchtvshowviewcontroller.notvshowfound" = "Keine Fernsehserie gefunden";
+
+"mtsearchviewcontroller.add" = "Hinzufügen";
+
+/* MTDetailViewController - Delegation */
+"mtdetailviewcontrollerdelegates.segmentedview.notes" = "Noitzen";
+"mtdetailviewcontrollerdelegates.segmentedview.notes.placeholer" = "Füge Notizen hinzu";
+
+/* MTOwnMediaViewController */
+"mtownmediaviewcontroller.titlelabel.placeholder" = "Titel";
+"mtownmediaviewcontroller.notestextview.placeholder" = "Füge Notizen hinzu";
+
+/* MTAffiliateTokenController */
+"mtaffiliatetokenviewcontroller.tableview.footer" = "Verwende deinen eigenen PHG Affiliation-Token, um individuelle Sharing-Links zu erzeugen.";
+"mtaffiliatetokenviewcontroller.tableview.moreInformation" = "Weitere Informationen";
+"mtaffiliatetokenviewcontroller.tableview.moreInformation.link" = "hhttps://www.apple.com/de/itunes/affiliates/";
+
+/* MTSettingsViewController */
+"mtsettingsviewcontroller.settokenlabel.text" = "Verwende eigenen Affiliate Token";
+
+/* Notification */
+"mtnotification.newpricefor" = "Neuer Preis für";

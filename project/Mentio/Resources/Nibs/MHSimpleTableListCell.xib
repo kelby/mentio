@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MHSimpleTableList"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="axR-Er-FYS" customClass="MHSimpleTableListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="157"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="axR-Er-FYS" id="vq1-1d-BBi">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="90" translatesAutoresizingMaskIntoConstraints="NO" id="EHb-cI-KMC">
+                        <rect key="frame" x="0.0" y="8" width="90" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="gjL-vo-Rxx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="206" translatesAutoresizingMaskIntoConstraints="NO" id="5V4-rL-wkA">
+                        <rect key="frame" x="98" y="8" width="222" height="140"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5V4-rL-wkA" firstAttribute="leading" secondItem="EHb-cI-KMC" secondAttribute="trailing" constant="8" symbolic="YES" id="8Ko-ko-fxf"/>
+                    <constraint firstItem="EHb-cI-KMC" firstAttribute="top" secondItem="vq1-1d-BBi" secondAttribute="topMargin" id="8Z1-WJ-O0e"/>
+                    <constraint firstItem="EHb-cI-KMC" firstAttribute="bottom" secondItem="5V4-rL-wkA" secondAttribute="bottom" id="FWc-z2-Vhp"/>
+                    <constraint firstItem="EHb-cI-KMC" firstAttribute="top" secondItem="5V4-rL-wkA" secondAttribute="top" id="Ipk-MB-rkG"/>
+                    <constraint firstItem="EHb-cI-KMC" firstAttribute="leading" secondItem="vq1-1d-BBi" secondAttribute="leading" id="NVt-a3-gUQ"/>
+                    <constraint firstAttribute="trailing" secondItem="5V4-rL-wkA" secondAttribute="trailing" id="jto-zP-wfQ"/>
+                    <constraint firstItem="EHb-cI-KMC" firstAttribute="bottom" secondItem="vq1-1d-BBi" secondAttribute="bottomMargin" id="ooe-3h-eSI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptorLabel" destination="EHb-cI-KMC" id="f4g-4R-Ny1"/>
+                <outlet property="valueLabel" destination="5V4-rL-wkA" id="yBA-hr-7T9"/>
+            </connections>
+            <point key="canvasLocation" x="329" y="373.5"/>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

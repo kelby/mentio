@@ -1,0 +1,13 @@
+link_with ['Mentio', 'MentioTests']
+
+pod 'FCModel', '~> 0.9'
+pod 'MHFancyPants', '~> 0.1'
+pod 'KZPropertyMapper', '~> 2.0'
+pod 'AFNetworking'
+pod 'AFNetworking/UIKit'
+pod 'CountryPicker', '~> 1.2'
+pod 'MHCustomTabBarController', '~> 1.2.0'
+pod "URBMediaFocusViewController", :git => 'https://github.com/mhaddl/URBMediaFocusViewController.git', :commit => '8a32520dc12b417d80e3167cd0da6da213136028'
+pod "SZTextView"
+pod "MHSegmentedView"
+pod 'MHAlbumView'

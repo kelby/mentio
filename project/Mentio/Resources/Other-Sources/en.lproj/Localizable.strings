@@ -1,0 +1,103 @@
+/* 
+  Localizable.strings
+  Mentio
+
+  Created by Martin Hartl on 16/10/13.
+  Copyright (c) 2013 Martin Hartl. All rights reserved.
+*/
+
+"MTStatusCellLoading" = "Loading";
+"MTStatusCellNoDataFound" = "No data found";
+"MTStatusCellSearchSomeThing" = "Search something";
+"Music" = "Music";
+"Movie" = "Movie";
+"Artist:" = "Artist:";
+"Title:" = "Title:";
+"Price:" = "Price:";
+"Songs" = "Songs";
+"Infos" = "Infos";
+"Release Date:" = "Release Date:";
+"share" = "Share";
+"shared by" = "shared by";
+"Director:" = "Director:";
+"Description:" = "Description:";
+"App" = "App";
+"Screenshots" = "Screenshots";
+"Developer:" = "Developer:";
+"Description" = "Description";
+"Free" = "Free";
+"Settings" = "Settings";
+"Country Settings" = "Set country";
+"Please select your country" = "Please select your country";
+"Use light theme" = "Use light theme";
+"About" = "About";
+"contact/sendfeedback" = "Contact / Send Feedback";
+"followMeOnTwitter" = "Follow me on Twitter";
+"rateMentio" = "Rate Mentio";
+"thankforpurchasing" = "Thank you for purchasing Mentio";
+"SETTINGS_NO_MAIL_TITLE" = "Ups";
+"SETTINGS_NO_MAIL_ACCOUNT_SET_UP" = "It seems like you have not set up an E-Mail account on this device.";
+"SETTINGS_ALERT_OK" = "Ok";
+"noInternetWarningMessage" = "An error occurred, maybe you have no internet connection.";
+"noInternetWarningTitle" = "Error";
+"Ok" = "Ok";
+"missingDataWarningTitle" = "Data missing";
+"Not available" = "Not available";
+"Author:" = "Author:";
+"Episodes" = "Episodes";
+"TV Show" = "TV Show";
+"Book" = "Book";
+"Copyright:" = "Copyright:";
+"Show:" = "Show:";
+
+/* MTListViewController */
+"mtlistviewcontroller.navigationitem.title.archive" = "Archive";
+"mtlistviewcontroller.categorie.music" = "Music";
+"mtlistviewcontroller.categorie.movies" = "Movies";
+"mtlistviewcontroller.categorie.apps" = "Apps";
+"mtlistviewcontroller.categorie.books" = "Books";
+"mtlistviewcontroller.categorie.tvshows" = "TV Shows";
+"mtlistviewcontroller.rowaction.archive" = "Archive";
+"mtlistviewcontroller.rowaction.unarchive" = "Unarchive";
+"mtlistviewcontroller.rowaction.delete" = "Delete";
+
+/* MTAcknowledgmentViewController */
+"acknowledgment.title" = "Attribution";
+"acknowledgment.introduction" = "Mentio makes use of the following third party libraries:";
+
+/* MTSearchViewControllers */
+"mtsearchappviewcontroller.searchsomething" = "Search for an App";
+"mtsearchappviewcontroller.noappfound" = "No App found";
+
+"mtsearchmusicviewcontroller.searchsomething" = "Search for Music";
+"mtsearchmusicviewcontroller.nomusicfound" = "No Music found";
+
+"mtsearchmovieviewcontroller.searchsomething" = "Search for a Movie";
+"mtsearchmovieviewcontroller.nomoviefound" = "No Movie found";
+
+"mtsearchbookviewcontroller.searchsomething" = "Search for a Book";
+"mtsearchbookviewcontroller.nobookfound" = "No Book found";
+
+"mtsearchtvshowviewcontroller.searchsomething" = "Search for a TV Show";
+"mtsearchtvshowviewcontroller.notvshowfound" = "No TV Show found";
+
+"mtsearchviewcontroller.add" = "Add";
+
+/* MTDetailViewController - Delegation */
+"mtdetailviewcontrollerdelegates.segmentedview.notes" = "Notes";
+"mtdetailviewcontrollerdelegates.segmentedview.notes.placeholer" = "Add some notes";
+
+/* MTOwnMediaViewController */
+"mtownmediaviewcontroller.titlelabel.placeholder" = "Title";
+"mtownmediaviewcontroller.notestextview.placeholder" = "Add some notes";
+
+/* MTAffiliateTokenController */
+"mtaffiliatetokenviewcontroller.tableview.footer" = "User your own PHG affiliate token to create personal affiliate coded sharing links.";
+"mtaffiliatetokenviewcontroller.tableview.moreInformation" = "More information";
+"mtaffiliatetokenviewcontroller.tableview.moreInformation.link" = "https://www.apple.com/itunes/affiliates/resources/";
+
+/* MTSettingsViewController */
+"mtsettingsviewcontroller.settokenlabel.text" = "Set own Affiliate Token";
+
+/* Notification */
+"mtnotification.newpricefor" = "New price for";

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alternateBackgroundColor</key>
+	<string>F8F8F8</string>
+	<key>glyphIconColor</key>
+	<string>345234</string>
+	<key>scrollIndicatorStyle</key>
+	<integer>0</integer>
+	<key>tableSeparatorInset</key>
+	<dict>
+		<key>top</key>
+		<integer>0</integer>
+		<key>bottom</key>
+		<integer>0</integer>
+		<key>right</key>
+		<integer>0</integer>
+		<key>left</key>
+		<integer>80</integer>
+	</dict>
+	<key>overshareKitStyle</key>
+	<integer>0</integer>
+	<key>navigationBarTitleTextColor</key>
+	<string>000000</string>
+	<key>defaultStatusBarStyle</key>
+	<integer>0</integer>
+	<key>statusBarViewAlpha</key>
+	<integer>1</integer>
+	<key>statusBarViewColor</key>
+	<string>F4F4F4</string>
+	<key>keyboardAppearance</key>
+	<integer>2</integer>
+	<key>tabBarStyle</key>
+	<integer>0</integer>
+	<key>sectionHeaderBackgroundColor</key>
+	<string>ECECEC</string>
+	<key>sectionHeaderTintColor</key>
+	<string>000000</string>
+	<key>bodyTextColor</key>
+	<string>535353</string>
+	<key>headingTextColor</key>
+	<string>2A2A2A</string>
+	<key>tableViewSeparetorColor</key>
+	<string>9A9A9A</string>
+	<key>backgroundColor</key>
+	<string>F4F4F4</string>
+	<key>selectedBackgroundColor</key>
+	<string>EDEDED</string>
+	<key>barBackgroundColor</key>
+	<string>F4F4F4</string>
+	<key>deleteButtonRed</key>
+	<string>FF4436</string>
+	<key>tintColor</key>
+	<string>00D0A3</string>
+</dict>
+</plist>
