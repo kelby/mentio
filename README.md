@@ -16,6 +16,8 @@ After CocoaPods is successfully installed, clone this repo, enter the "Mentio/pr
 
 After this step make sure to open the `Mentio.xcworkspace` file to edit the project.
 
-## Copyright
+## License
 
-Copyright (c) 2013-2015 Martin Hartl. All rights reserved.
+MIT License. In addition do not publicly distribute the app as a whole in binary form.
+
+Copyright (c) 2013-2015 Martin Hartl.
