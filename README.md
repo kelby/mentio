@@ -18,6 +18,6 @@ After this step make sure to open the `Mentio.xcworkspace` file to edit the proj
 
 ## License
 
-MIT License. In addition do not publicly distribute the app as a whole in binary form.
-
 Copyright (c) 2013-2015 Martin Hartl.
+
+Do not publicly distribute the app as a whole or major parts in binary form.
