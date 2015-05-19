@@ -120,6 +120,10 @@ NSString *const MTModelMapperKindTVEpisode = @"tv-episode";
     
     NSDate *date = [[MTSharedDateFormatter sharedInstace] configuredFormatDateFromString:[dict valueForKey:@"releaseDate"]];
     
+    if ([dict valueForKey:@"collectionHdPrice"]) {
+        movie.collectionPrice = [dict objectForKey:@"collectionHdPrice"];
+    }
+    
     movie.releaseDate = date;
     movie.artworkUrl100 = [movie.artworkUrl100 stringByReplacingOccurrencesOfString:@"100x100-75.jpg" withString:@"200x200-75.jpg"];
     
@@ -205,6 +209,10 @@ NSString *const MTModelMapperKindTVEpisode = @"tv-episode";
         @"collectionViewUrl":@"collectionViewUrl",
         @"longDescription":@"seasonDescription"
     }];
+    
+    if ([dict valueForKey:@"collectionHdPrice"]) {
+        season.collectionPrice = [dict objectForKey:@"collectionHdPrice"];
+    }
     
     NSDate *date = [[MTSharedDateFormatter sharedInstace] configuredFormatDateFromString:[dict valueForKey:@"releaseDate"]];
     season.releaseDate = date;

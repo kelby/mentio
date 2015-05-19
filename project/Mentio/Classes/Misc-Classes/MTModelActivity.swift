@@ -64,11 +64,11 @@ class MTModelActivity: NSObject, UIActivityItemSource {
     
     
     class func createShareUrl(url: String) -> NSURL {
-        var affiliateToken = NSUserDefaults.standardUserDefaults().objectForKey(MTAffiliateTokenKeyConstant) as String?
+        var affiliateToken = NSUserDefaults.standardUserDefaults().objectForKey(MTAffiliateTokenKeyConstant) as! String?
         var urlString: String = ""
         
         if affiliateToken == nil || affiliateToken! == "" {
-            affiliateToken = NSBundle.mainBundle().objectForInfoDictionaryKey("itunesURLExtension") as String?
+            affiliateToken = NSBundle.mainBundle().objectForInfoDictionaryKey("itunesURLExtension") as! String?
         }
         
         if let uAffiliateToken = affiliateToken {
