@@ -98,7 +98,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section {
     if (section == 1) {
-        NSString *str = [NSString stringWithFormat:@"Version %@ \n%@",[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"], NSLocalizedString(@"thankforpurchasing", "thankforpurchasing")];
+        NSString *str = [NSString stringWithFormat:@"Version %@ \n%@",[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"], NSLocalizedString(@"thankforusing", "thankforusing")];
         return str;
     }
     
