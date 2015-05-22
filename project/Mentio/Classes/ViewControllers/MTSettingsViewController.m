@@ -46,6 +46,7 @@
     self.labelRateMentio.text = NSLocalizedString(@"rateMentio", @"rateMentio");
     self.labelAttribution.text = NSLocalizedString(@"acknowledgment.title", @"Attribution");
     self.labelAffiliateToken.text = NSLocalizedString(@"mtsettingsviewcontroller.settokenlabel.text", @"use own token");
+    self.labelArchive.text = NSLocalizedString(@"mtsettingsviewcontroller.archivelabel.text", "archive");
     
     UIFont *prefFont = [UIFont preferredAvenirFontForTextStyle:UIFontTextStyleBody];
     

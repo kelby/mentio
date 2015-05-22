@@ -98,6 +98,7 @@
 
 /* MTSettingsViewController */
 "mtsettingsviewcontroller.settokenlabel.text" = "Set own Affiliate Token";
+"mtsettingsviewcontroller.archivelabel.text" = "Archive";
 
 /* Notification */
 "mtnotification.newpricefor" = "New price for";

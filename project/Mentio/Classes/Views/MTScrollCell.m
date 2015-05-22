@@ -45,6 +45,7 @@
     self.collectionNameLabel.hidden = hide;
     self.artistNameLabel.hidden = hide;
     self.disclousureIndicatorImageView.hidden = hide;
+    self.priceLabel.hidden = hide;
     self.userInteractionEnabled = !hide;
 }
 
