@@ -37,10 +37,12 @@
     return self;
 }
 
+//  这个方法返回 tableview 有多少个section
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return  [self.dict numberOfSections];
 }
 
+// 这个方法返回   对应的section有多少个元素，也就是多少行。
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
     if ([self.dict nilOrEmptyArrayForSection:section]) {
@@ -50,6 +52,8 @@
     return [self.dict arrayForIndexPathSection:section].count;
 }
 
+// 返回指定的 row 的 cell。
+// 这个地方是比较关键的地方，一般在这个地方来定制各种个性化的 cell 元素。
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     if ([self.dict nilOrEmptyArrayForSection:indexPath.section]) {
         static NSString *CellIdentifier = @"StatusCell";
@@ -118,6 +122,8 @@
     
 }
 
+// 返回指定的 section 的 header  的 title
+// 如果这个 section header  有返回view，那么title就不起作用了。
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     switch (section) {
         case 0:
@@ -169,7 +175,7 @@
     return YES;
 }
 
-
+//    通知告诉用户编辑了 哪个cell
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         [self tableView:tableView deleteRowAtIndexPath:indexPath];
@@ -222,6 +228,8 @@
     
 }
 
+// 首页没有内容时，显示的图标。
+// 图片在 Images.xcassets 目录下
 - (UIImage *)mediaImageForSection:(NSInteger)section {
     UIImage *image;
     switch (section) {
@@ -262,6 +270,22 @@
     return _themer;
 }
 
-
+//设置点击事件:
+// 四部分：当前位置 - section 头（动态） - cell 内容（动态） - 确定
+/*
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSString *content;
+    switch (indexPath.section) {
+        case 0:
+            content=[NSString stringWithFormat:@"%@-%@",channelArr[0],[filmArr objectAtIndex:indexPath.row]];
+            break;
+        case 1:
+            content=[NSString stringWithFormat:@"%@-%@",channelArr[1],[tvArr objectAtIndex:indexPath.row]];
+            break;
+    }
+    UIAlertView *alterView=[[UIAlertView alloc] initWithTitle:@"当前位置:" message:content delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil];
+    [alterView show];
+}
+*/
 
 @end

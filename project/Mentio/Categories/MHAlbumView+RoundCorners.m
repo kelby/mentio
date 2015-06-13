@@ -10,6 +10,7 @@
 
 @implementation MHAlbumView (RoundCorners)
 
+// 对图片进行圆角矩形的处理 - 本项目中，仅针对 app
 - (void)applyRoundCorners:(BOOL)value {
     if (value) {
         UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, [UIScreen mainScreen].scale);
